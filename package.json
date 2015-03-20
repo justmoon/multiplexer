@@ -1,0 +1,31 @@
+{
+  "name": "multiplexer",
+  "version": "1.0.0",
+  "description": "Multiplexes the output of several commands.",
+  "main": "index.js",
+  "bin": {
+    "multiplexer": "multiplexer.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:justmoon/multiplexer.git"
+  },
+  "keywords": [
+    "log",
+    "multiplex"
+  ],
+  "author": "Stefan Thomas <justmoon@members.fsf.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justmoon/multiplexer/issues"
+  },
+  "homepage": "https://github.com/justmoon/multiplexer",
+  "dependencies": {
+    "byline": "^4.2.1",
+    "meow": "^3.1.0",
+    "through2": "^0.6.3"
+  }
+}
