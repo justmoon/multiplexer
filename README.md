@@ -55,3 +55,4 @@ Instead of a string, each command can be an object with the following fields:
 * `gid` ... Run as Group ID
 * `detached` ... Detach from parent process
 * `alias` ... Custom log prefix (default: process id)
+* `waitFor` ... Wait for process to print given string to stdout before spawning next process
