@@ -54,3 +54,4 @@ Instead of a string, each command can be an object with the following fields:
 * `uid` ... Run as User ID
 * `gid` ... Run as Group ID
 * `detached` ... Detach from parent process
+* `alias` ... Custom log prefix (default: process id)
