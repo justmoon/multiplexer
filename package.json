@@ -1,6 +1,6 @@
 {
   "name": "multiplexer",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Multiplexes the output of several commands.",
   "main": "index.js",
   "bin": {
